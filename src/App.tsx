@@ -1,11 +1,13 @@
+
 import Header from "./components/Header";
+
+
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "sonner";
 
-
+import AllRoutes from "./AllRoutes";
 
 function App() {
-  
 
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Header />
       
+        <AllRoutes />
       </ThemeProvider>
     </>
   );
