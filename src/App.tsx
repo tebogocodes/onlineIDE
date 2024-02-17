@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./pages/Home";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "sonner";
 import { useEffect } from "react";
