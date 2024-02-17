@@ -13,7 +13,7 @@ function App() {
       <Toaster position="bottom-right" theme="dark" />
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Header />
-        <AllRoutes />
+      
       </ThemeProvider>
     </>
   );
